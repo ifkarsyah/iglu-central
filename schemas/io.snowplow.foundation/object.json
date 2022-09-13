@@ -1,0 +1,36 @@
+{
+  "description": "Schema for a generic object entity",
+  "properties": {
+    "name": {
+      "type": "string",
+      "maxLength": 255,
+      "description": "The name of the object or property"
+    },
+    "svalue": {
+      "type": "string",
+      "maxLength": 4096,
+      "description": "The object or property value, if it is a string"
+    },
+    "nvalue": {
+      "type": "number",
+      "description": "The object or property value, if it is a number"
+    },
+    "tvalue": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The object or property value, if it is a timestamp"
+    }
+  },
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "name"
+  ],
+  "self": {
+    "vendor": "io.snowplow.foundation",
+    "name": "object",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#"
+}

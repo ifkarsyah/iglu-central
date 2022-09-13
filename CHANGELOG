@@ -5,6 +5,10 @@ Add com.snowplowanalytics.mobile/remote_config/jsonschema/1-0-1 (#1225)
 Extend copyright to 2022 (#1218)
 Update links in Readme (#1219)
 Add CONTRIBUTING.md (#1220)
+Add io.snowplow.foundation/content.json/jsonschema/1-0-0
+Add io.snowplow.foundation/conversion.json/jsonschema/1-0-0
+Add io.snowplow.foundation/funnel_interaction.json/jsonschema/1-0-0
+Add io.snowplow.foundation/object.json/jsonschema/1-0-0
 
 Release 135 (2022-05-30)
 ------------------------
